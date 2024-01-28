@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #6a686633;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #504a4a;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+    width: 90%;
+  }
+  
+  img {
+    width: 50px; /* Tamaño más pequeño para el logo */
+    height: 50px;
+    margin-bottom: 10px; /* Reducir el espacio entre el logo y el título */
+    align-self: flex-start; /* Colocar el logo en la esquina izquierda */
+  }
+  
+  /* Nueva entrada de texto y área de resultado con el mismo tamaño */
+  #textInput,
+  #outputText {
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 5px;
+  }
+  
+  .encrypt-button {
+    background-color: #3498db; /* Azul */
+    color: #fff;
+    border: none;
+  }
+  
+  .decrypt-button {
+    background-color: #87CEFA; /* Celeste pastel */
+    color: #000;
+    border: none;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  .warning-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .warning-icon {
+    color: #f39c12; /* Amarillo oscuro */
+    font-size: 20px;
+    margin-right: 5px;
+  }
+  
+  .warning-text {
+    color: #f39c12;
+  }
+  
+  /* Media queries para dispositivos más pequeños */
+  @media (max-width: 768px) {
+    .container {
+      width: 80%;
+    }
+  }
+  
